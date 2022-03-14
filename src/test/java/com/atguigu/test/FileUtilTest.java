@@ -40,7 +40,7 @@ public class FileUtilTest {
      * 修改文件编码：gbk -> utf-8
      */
     @Test
-    public void testReadLines() throws IOException {
+    public void testReadLines() {
         String path = "/Users/hezongkui/github/springmvc-annotation";
         // 列出目录下所有文件
         Collection<File> files = FileUtils.listFiles(new File(path), null, true);
